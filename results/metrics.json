@@ -1,0 +1,53 @@
+{
+ "n_slices": 64,
+ "faces": "data/faces_manuscript.csv",
+ "air_mean": 52.02,
+ "air_sd": 1.84,
+ "tilt_deg": -5.873536868677557,
+ "thickness_um_median": 201.133536,
+ "dense_layer_um": [
+  0.0,
+  42.924839999999996
+ ],
+ "S_rich_vol_pct": 2.473260917052247,
+ "n_clusters": 193,
+ "cluster_d_median_um": 5.9236824655914715,
+ "thresholds": {
+  "2sd": {
+   "cutoff": 55.7,
+   "porosity_pct": 47.02635184780666,
+   "through_pct": 99.6965085177775,
+   "isolated_pct": 0.3034914822225019,
+   "tau_geo": 1.1124391685693247,
+   "Deff": 0.1405424852545659,
+   "tau_f": 3.444742476516923,
+   "eps_transport": 0.48413266871165644,
+   "pore_d_median_um": 5.484734866474405,
+   "flux_balance": 1.1860636430098045e-07
+  },
+  "3sd": {
+   "cutoff": 57.540000000000006,
+   "porosity_pct": 60.58909386976984,
+   "through_pct": 99.93025431936508,
+   "isolated_pct": 0.06974568063492168,
+   "tau_geo": 1.0719468909492256,
+   "Deff": 0.2873437329488476,
+   "tau_f": 2.135225659387058,
+   "eps_transport": 0.6135437116564417,
+   "pore_d_median_um": 6.937701816079443,
+   "flux_balance": 5.156806029229054e-07
+  },
+  "4sd": {
+   "cutoff": 59.38,
+   "porosity_pct": 72.24665885576981,
+   "through_pct": 99.9847448891943,
+   "isolated_pct": 0.015255110805703487,
+   "tau_geo": 1.04620094084185,
+   "Deff": 0.45653065761525874,
+   "tau_f": 1.5886722945410405,
+   "eps_transport": 0.7252776073619632,
+   "pore_d_median_um": 7.756586434188689,
+   "flux_balance": 1.8679483667091776e-07
+  }
+ }
+}

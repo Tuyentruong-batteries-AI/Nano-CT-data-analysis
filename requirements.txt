@@ -1,0 +1,8 @@
+numpy
+scipy
+pandas
+matplotlib
+pillow
+scikit-image
+jupyter
+pyvista   # optional, only for the 3D rendering cell
